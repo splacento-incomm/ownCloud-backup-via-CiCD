@@ -14,7 +14,7 @@ OWNCLOUDPATH=/var/www/owncloud
 
 if ($IS_DRIVE_AVAILABLE)
 then
-	echo "Target drive found $MOUNTDRIVE. Will be mounted into MOUNTPOINT"
+	echo "Target drive found $MOUNTDRIVE. Will be mounted into $MOUNTPOINT"
 else
         echo "Aborting - NO DRIVE found!!!"
         echo "Please insert the drive first or check cables. HINT: blue light!"
